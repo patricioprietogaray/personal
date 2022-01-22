@@ -1,14 +1,62 @@
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Great Vibes', cursive;
     margin: 0px;
-    top: 0px;
+
 }
 
 h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 85px;
     color: blue;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     background-position: bottom;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 56px;
+}
+
+.efectoEspejo {
+    -webkit-box-reflect: below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+   }
+
+.botones {
+    margin-top: 300px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    display: inline-flex;
+}
+
+#PC, #AS, #SW {
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+#PC:hover {
+    cursor: pointer;
+    color: black;    
+    margin-left: 35px;
+    font-size: 35px;
+}
+
+#SW:hover {
+    cursor: pointer;
+    color: black;    
+    margin-left: 35px;
+    font-size: 35px;
+}
+
+#AS:hover {
+    cursor: pointer;
+    color: black;    
+    margin-left: 35px;
+    font-size: 35px;
 }
